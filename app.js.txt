@@ -1,0 +1,318 @@
+let questions = [];
+let currentQuestionIndex = 0;
+let score = 0;
+let selectedAnswer = null;
+let hasAnswered = false;
+let currentChunk = null;
+
+// Load specific chunk
+async function loadChunk(chunkNumber) {
+currentChunk = chunkNumber;
+try {
+document.getElementById('chunkSelector').style.display = 'none';
+document.getElementById('loading').style.display = 'block';
+document.getElementById('error').style.display = 'none';
+
+const response = await fetch(`questions-chunk-${chunkNumber}.json`);
+if (!response.ok) {
+throw new Error(`Failed to load chunk ${chunkNumber}`);
+}
+
+questions = await response.json();
+resetQuiz();
+
+document.getElementById('loading').style.display = 'none';
+document.getElementById('quiz').style.display = 'block';
+
+displayQuestion();
+} catch (error) {
+console.error('Error loading questions:', error);
+document.getElementById('loading').style.display = 'none';
+document.getElementById('error').style.display = 'block';
+document.getElementById('error').innerHTML = `
+<h3>Unable to load questions</h3>
+<p>Could not load questions-chunk-${chunkNumber}.json. Please make sure all JSON files are in the same directory.</p>
+<button class="btn" onclick="showChunkSelector()">Back to Selection</button>
+`;
+}
+}
+
+// Load all chunks combined
+async function loadAllChunks() {
+try {
+document.getElementById('chunkSelector').style.display = 'none';
+document.getElementById('loading').style.display = 'block';
+document.getElementById('error').style.display = 'none';
+
+questions = [];
+
+for (let i = 1; i <= 5; i++) {
+try {
+const response = await fetch(`questions-chunk-${i}.json`);
+if (response.ok) {
+const chunkQuestions = await response.json();
+questions = questions.concat(chunkQuestions);
+}
+} catch (e) {
+console.warn(`Could not load chunk ${i}`);
+}
+}
+
+if (questions.length === 0) {
+throw new Error('No questions loaded');
+}
+
+// Shuffle questions for variety
+questions = shuffleArray(questions);
+currentChunk = 'all';
+resetQuiz();
+
+document.getElementById('loading').style.display = 'none';
+document.getElementById('quiz').style.display = 'block';
+
+displayQuestion();
+} catch (error) {
+console.error('Error loading questions:', error);
+document.getElementById('loading').style.display = 'none';
+document.getElementById('error').style.display = 'block';
+document.getElementById('error').innerHTML = `
+<h3>Unable to load questions</h3>
+<p>Could not load question files. Please make sure all questions-chunk-X.json files are present.</p>
+<button class="btn" onclick="showChunkSelector()">Back to Selection</button>
+`;
+}
+}
+
+// Shuffle array function
+function shuffleArray(array) {
+const shuffled = [...array];
+for (let i = shuffled.length - 1; i > 0; i--) {
+const j = Math.floor(Math.random() * (i + 1));
+[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+}
+return shuffled;
+}
+
+// Show chunk selector
+function showChunkSelector() {
+document.getElementById('chunkSelector').style.display = 'block';
+document.getElementById('quiz').style.display = 'none';
+document.getElementById('finalScore').style.display = 'none';
+document.getElementById('error').style.display = 'none';
+}
+
+// Reset quiz state
+function resetQuiz() {
+currentQuestionIndex = 0;
+score = 0;
+selectedAnswer = null;
+hasAnswered = false;
+}
+
+// Save progress to localStorage
+function saveProgress() {
+const progress = {
+currentQuestionIndex,
+score,
+currentChunk,
+answers: questions.map((q, index) => ({
+questionId: q.id,
+selectedAnswer: index < currentQuestionIndex ? 'answered' : null,
+isCorrect: index < currentQuestionIndex ? 'completed' : null
+}))
+};
+try {
+// Note: localStorage is not available in Claude artifacts, so this is for when you use it locally
+if (typeof localStorage !== 'undefined') {
+localStorage.setItem(`quizProgress_${currentChunk}`, JSON.stringify(progress));
+}
+} catch (e) {
+console.log('localStorage not available - progress will not be saved');
+}
+}
+
+// Load progress from localStorage
+function loadProgress() {
+try {
+if (typeof localStorage !== 'undefined' && currentChunk) {
+const saved = localStorage.getItem(`quizProgress_${currentChunk}`);
+if (saved) {
+const progress = JSON.parse(saved);
+currentQuestionIndex = progress.currentQuestionIndex || 0;
+score = progress.score || 0;
+}
+}
+} catch (e) {
+console.log('localStorage not available - starting fresh');
+}
+}
+
+// Display current question
+function displayQuestion() {
+if (currentQuestionIndex >= questions.length) {
+showFinalScore();
+return;
+}
+
+const question = questions[currentQuestionIndex];
+hasAnswered = false;
+selectedAnswer = null;
+
+// Update progress bar
+const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+document.getElementById('progressFill').style.width = progress + '%';
+
+// Update question info
+document.getElementById('questionNumber').textContent =
+`Question ${currentQuestionIndex + 1} of ${questions.length}`;
+document.getElementById('scoreDisplay').textContent =
+`Score: ${score}/${currentQuestionIndex}`;
+document.getElementById('categoryTag').textContent = question.category || 'General';
+document.getElementById('questionText').textContent = question.question;
+
+// Create options
+const optionsContainer = document.getElementById('optionsContainer');
+optionsContainer.innerHTML = '';
+
+Object.entries(question.options).forEach(([letter, text]) => {
+const optionDiv = document.createElement('div');
+optionDiv.className = 'option';
+optionDiv.onclick = () => selectAnswer(letter);
+
+optionDiv.innerHTML = `
+<div class="option-letter">${letter}</div>
+<div class="option-text">${text}</div>
+`;
+
+optionsContainer.appendChild(optionDiv);
+});
+
+// Hide explanation section
+document.getElementById('explanationSection').style.display = 'none';
+
+// Update navigation buttons
+document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+document.getElementById('nextBtn').disabled = true;
+document.getElementById('nextBtn').textContent =
+currentQuestionIndex === questions.length - 1 ? 'Finish Quiz' : 'Next →';
+}
+
+// Handle answer selection
+function selectAnswer(letter) {
+if (hasAnswered) return;
+
+selectedAnswer = letter;
+hasAnswered = true;
+
+const question = questions[currentQuestionIndex];
+const isCorrect = letter === question.correct;
+
+if (isCorrect) {
+score++;
+}
+
+// Update option styling
+document.querySelectorAll('.option').forEach(option => {
+const optionLetter = option.querySelector('.option-letter').textContent;
+option.onclick = null; // Disable further clicks
+
+if (optionLetter === question.correct) {
+option.classList.add('correct');
+} else if (optionLetter === letter && !isCorrect) {
+option.classList.add('incorrect');
+}
+});
+
+// Show explanation
+showExplanation(question);
+
+// Enable next button
+document.getElementById('nextBtn').disabled = false;
+
+// Save progress
+saveProgress();
+}
+
+// Show explanation
+function showExplanation(question) {
+const explanationSection = document.getElementById('explanationSection');
+const explanationText = document.getElementById('explanationText');
+const explanationDetails = document.getElementById('explanationDetails');
+
+explanationText.textContent = question.explanations.correct;
+
+// Show explanations for all options
+const details = [];
+Object.entries(question.options).forEach(([letter, text]) => {
+const explanation = question.explanations[letter];
+if (explanation && explanation !== 'Correct.') {
+const isCorrect = letter === question.correct;
+details.push(`
+<div class="explanation-item ${isCorrect ? 'correct' : 'incorrect'}">
+<strong>${letter}:</strong> ${explanation}
+</div>
+`);
+}
+});
+
+explanationDetails.innerHTML = details.join('');
+explanationSection.style.display = 'block';
+}
+
+// Navigation functions
+function nextQuestion() {
+if (!hasAnswered) return;
+
+currentQuestionIndex++;
+if (currentQuestionIndex >= questions.length) {
+showFinalScore();
+} else {
+displayQuestion();
+}
+}
+
+function previousQuestion() {
+if (currentQuestionIndex > 0) {
+currentQuestionIndex--;
+displayQuestion();
+}
+}
+
+// Show final score
+function showFinalScore() {
+document.getElementById('quiz').style.display = 'none';
+document.getElementById('finalScore').style.display = 'block';
+
+const percentage = Math.round((score / questions.length) * 100);
+document.getElementById('finalScoreCircle').textContent = `${score}/${questions.length}`;
+document.getElementById('finalScoreText').textContent =
+`You scored ${score} out of ${questions.length} questions correctly (${percentage}%).`;
+
+// Clear saved progress
+try {
+if (typeof localStorage !== 'undefined' && currentChunk) {
+localStorage.removeItem(`quizProgress_${currentChunk}`);
+}
+} catch (e) {
+console.log('localStorage not available');
+}
+}
+
+// Restart quiz
+function restartQuiz() {
+resetQuiz();
+document.getElementById('finalScore').style.display = 'none';
+document.getElementById('quiz').style.display = 'block';
+displayQuestion();
+}
+
+// Go back to chunk selection
+function backToSelection() {
+showChunkSelector();
+}
+
+// Initialize the quiz when page loads
+window.addEventListener('load', function() {
+// Show chunk selector on startup
+document.getElementById('chunkSelector').style.display = 'block';
+});
