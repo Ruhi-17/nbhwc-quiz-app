@@ -1,1959 +1,902 @@
 [
   {
     "id": 1,
-    "question": "Is the following go al a be havioral goal or an outco me go al? ______ I will  lose 10 pounds in t wo months.",
+    "question": "Is the following goal a behavioral goal or an outcome goal? 'I will lose 10 pounds in two months.'",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Behavioral goal",
+      "B": "Outcome goal",
+      "C": "Both",
+      "D": "Neither"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Behavioral goals focus on specific actions (e.g., walking 30 mins daily), not outcomes. (NBHWC 2.4, *Coaching Psychology Manual*, p. 133)",
+      "B": "Correct. This is an outcome goal because it describes a result, not a behavior. (*Changing to Thrive*, p. 85)",
+      "C": "This is not both\u2014a goal is either behavior-focused or outcome-focused. This one is clearly outcome-based.",
+      "D": "Incorrect. This fits the standard definition of an outcome goal. (*Health & Wellness Coaching*, Ch. 5)"
     },
-    "category": ""
+    "category": "Goal Setting"
   },
   {
     "id": 2,
-    "question": "W hich t yp e of r efle cti on is the foll owing statemen t. \"It 's sounds  li ke you ar e s a yin g gett ing more sl eep is i mportant t o you but you are not wil li ng to give up video games at n ight.\"",
+    "question": "A client in your coaching session begins asking for specific advice on supplements and mentions a recent lab test. What is the most appropriate action for a health and wellness coach to take?",
     "options": {
-      "A": "Si mpl e reflecti on",
-      "B": "Ampli fied re flecti on C . Double - sided re flecti o n",
-      "C": "",
-      "D": ""
+      "A": "Recommend evidence-based supplements to address nutrient gaps",
+      "B": "Refer the client to a licensed healthcare professional",
+      "C": "Interpret the lab results to help the client take informed action",
+      "D": "Share anecdotal experiences with similar issues"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Outside scope\u2014coaches cannot prescribe or recommend supplements unless licensed. (NBHWC Scope of Practice)",
+      "B": "Correct. Referral is appropriate when clinical interpretation is needed. (NBHWC 1.2, Code of Ethics)",
+      "C": "Interpreting labs is a clinical task and not within the coach\u2019s role. (*Coaching Psychology Manual*, Ch. 10)",
+      "D": "Sharing personal stories may bias the session and shifts focus from client autonomy. (NBHWC 2.2)"
     },
-    "category": ""
+    "category": "Scope & Referral"
   },
   {
     "id": 3,
-    "question": "W hich of the foll owing i s true about brainst ormi n g sessions?  C omm ent yo ur answe r below.",
+    "question": "Which of the following is true about brainstorming sessions?",
     "options": {
-      "A": "Br ainst ormi ng session s last as long as the y n ee d to.",
-      "B": "Ver y spe cific answ ers",
-      "C": "No evalu ati on of quali ty of answe rs",
+      "A": "Brainstorming sessions last as long as they need to.",
+      "B": "Very specific answers.",
+      "C": "No evaluation of quality of answers",
       "D": "All of the above"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "While brainstorming is flexible, session timing alone doesn\u2019t define its nature. (NBHWC 2.4)",
+      "B": "Incorrect. Brainstorming encourages broad, creative thinking\u2014not specific answers. (*Coaching Psychology Manual*, p. 123)",
+      "C": "Correct. Evaluating answers too soon limits creativity and client ownership. (NBHWC 2.3)",
+      "D": "Not all listed options are correct\u2014only C accurately describes the coaching use of brainstorming."
     },
-    "category": ""
+    "category": "Powerful Questioning"
   },
   {
     "id": 4,
-    "question": "Turn the foll owing st ate ment int o a sim ple reflect ion. Nex t, t urn it  int o an amplifiedrefle cti on. \"I don 't se e the point of tr yi n g to get m ore fit. Ever yt hin g I've tri ed neve r w orks\"",
+    "question": "Which of the following behaviors demonstrates active listening?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Interrupting to clarify the client's points",
+      "B": "Nodding and summarizing what the client said",
+      "C": "Taking notes without making eye contact",
+      "D": "Thinking about the next question to ask"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Interrupting disrupts the client\u2019s flow and does not reflect true listening. (*Motivational Interviewing*, p. 74)",
+      "B": "Correct. Active listening involves nonverbal engagement and reflective summarizing. (NBHWC 2.2, *Coaching Psychology Manual*)",
+      "C": "Note-taking without engagement can signal disinterest and disconnect. (NBHWC Coaching Presence)",
+      "D": "Focusing on what to say next reduces attentiveness to the client\u2019s words. (NBHWC 2.1)"
     },
-    "category": ""
+    "category": "Coaching Communication"
   },
   {
     "id": 5,
-    "question": "W hich of the foll owing i s not  consi dered a majo r risk factor fo r c ardiovasc ular disease? C omm ent you r answ er b elow.",
+    "question": "A client says, \u201cI know I should be more active, but I just hate going to the gym.\u201d What is the best coaching response?",
     "options": {
-      "A": "Ph ysical i na cti vit y",
-      "B": "S moki ng C . S tress",
-      "C": "",
-      "D": "Alcohol - use"
+      "A": "Why don\u2019t you like going to the gym?",
+      "B": "Let\u2019s explore why being active matters to you.",
+      "C": "Maybe you could try a different gym.",
+      "D": "Try to go just twice a week for now."
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "\u2018Why\u2019 questions can sound critical and may reduce trust. (*Motivational Interviewing*, p. 65)",
+      "B": "Correct. This response explores internal motivation and meaning, which supports autonomy. (NBHWC 2.4, *MI*)",
+      "C": "Offering suggestions without evoking the client\u2019s ideas may reduce empowerment. (*Coaching Psychology Manual*)",
+      "D": "Prescriptive advice early in the conversation may lead to resistance. (NBHWC Code of Ethics)"
     },
-    "category": ""
+    "category": "Motivational Interviewing"
   },
   {
     "id": 6,
-    "question": "W hich of the foll owing b ehavior ch an ge te chnique  is considered mos t colla b orati ve?  C omment yo ur answe r below.",
+    "question": "Which of the following is true about the Transtheoretical Model?",
     "options": {
-      "A": "Moti vati onal Inte rvie wing",
-      "B": "He alt h Educati on C . P rochaska 's S tages of C hange",
-      "C": "",
-      "D": "Cognit ive Behavior al Therap y"
+      "A": "It includes five stages of change",
+      "B": "It\u2019s only relevant for addiction coaching",
+      "C": "It encourages coaches to offer advice in all stages",
+      "D": "It assumes clients are always ready to act"
     },
-    "correct": "",
+    "correct": "A",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Correct. The model includes Precontemplation, Contemplation, Preparation, Action, and Maintenance. (*Changing to Thrive*, p. 23)",
+      "B": "The model applies broadly to health behavior change, not just addiction. (NBHWC 2.4)",
+      "C": "Coaching emphasizes evoking rather than advising, especially in early stages. (NBHWC Coaching Process)",
+      "D": "Clients often move back and forth through stages; readiness is not assumed. (*Changing to Thrive*)"
     },
-    "category": ""
+    "category": "Stages of Change"
   },
   {
     "id": 7,
-    "question": "At which coa ching s essi on is it  best t o set S MART goals?  Answer in comm ents. C omm ent \" ye s \" if you got i t r i ght!",
+    "question": "What is the best reflection for a client who says, \u201cI want to change my diet, but I love fast food\u201d?",
     "options": {
-      "A": "First sessi on",
-      "B": "S econd sessi on C . 6th s essi on",
-      "C": "",
-      "D": "After at l east 2 m onths"
+      "A": "So you're not serious about eating healthy?",
+      "B": "You\u2019re torn between wanting to eat better and enjoying fast food.",
+      "C": "Maybe you can eat fast food only on weekends.",
+      "D": "You should cut out fast food completely."
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Judgmental reflections can harm rapport and shut down dialogue. (NBHWC Code of Ethics)",
+      "B": "Correct. This is a double-sided reflection that supports ambivalence resolution. (*Motivational Interviewing*, p. 150)",
+      "C": "Premature advice may reduce client engagement. (*Coaching Psychology Manual*)",
+      "D": "Directive language contradicts client-centered coaching. (NBHWC 2.1)"
     },
-    "category": ""
+    "category": "Motivational Interviewing"
   },
   {
     "id": 8,
-    "question": "The foll owing d escriptio n is a the definiti on of w hich term? \"the f eeli n g that you und erstand and sh are another  person 's ex perienc es and  emot ions\"",
+    "question": "In Motivational Interviewing, which of the following is a core skill?",
     "options": {
-      "A": "S ympath y",
-      "B": "Empath y",
-      "C": " R apport",
-      "D": "Coachin g R elations hip"
+      "A": "Diagnosing resistance",
+      "B": "Arguing for change",
+      "C": "Using affirmations",
+      "D": "Correcting misinformation"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "MI avoids pathologizing behavior and instead focuses on understanding resistance. (*MI*, Miller & Rollnick)",
+      "B": "Arguing for change increases resistance and reduces collaboration. (*Motivational Interviewing*, p. 25)",
+      "C": "Correct. Affirmations build client confidence and self-efficacy. (NBHWC 2.2, *MI*, p. 93)",
+      "D": "Correcting can be helpful, but only with permission and timing\u2014it\u2019s not a core skill. (NBHWC 1.1)"
     },
-    "category": ""
+    "category": "Motivational Interviewing"
   },
   {
     "id": 9,
-    "question": "W hich of the foll owing i s not  one of the five prin cipl es of Appr eciative In quir y?  C omm ent below if you got i t right!",
+    "question": "Which of the following goals is SMART?",
     "options": {
-      "A": "Empathetic",
-      "B": "P osit ive C . Anticipator y",
-      "C": "",
-      "D": "Poetic"
+      "A": "I want to be healthy someday",
+      "B": "I will eat 3 servings of vegetables per day for the next 4 weeks",
+      "C": "I\u2019ll probably start walking more soon",
+      "D": "Lose weight fast"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This is vague and lacks time or measurement. (NBHWC 2.4, *Coaching Psychology Manual*)",
+      "B": "Correct. This goal is Specific, Measurable, Achievable, Relevant, and Time-bound. (NBHWC Goal Setting)",
+      "C": "\u2018Probably\u2019 indicates low commitment and lack of clarity. (*Changing to Thrive*)",
+      "D": "\u2018Fast\u2019 is subjective and not a measurable metric. (NBHWC 2.4)"
     },
-    "category": ""
+    "category": "Goal Setting"
   },
   {
     "id": 10,
-    "question": "A Regist e red Dieti cian ju st passed his R D ex am and is now a NBC - HW C . He holds  no other certific ati ons. He desi gne d a H IIT p ro gram hi s firs t client. Is h e oper ati ng w it hin hi s IC HW C scope of pr acti ce?",
+    "question": "Which of the following is an appropriate coach action when a client identifies a desire to reduce stress?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Immediately recommend meditation",
+      "B": "Ask what they\u2019ve tried so far and what\u2019s worked",
+      "C": "Explain how stress affects cortisol",
+      "D": "Refer them to therapy"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Offering solutions too early may reduce engagement. (*Coaching Psychology Manual*)",
+      "B": "Correct. Exploring past success supports empowerment and resource activation. (NBHWC 2.4)",
+      "C": "While educational, this shifts focus away from client experience. (NBHWC 1.1)",
+      "D": "Referral is only needed if the client exhibits signs beyond coaching scope. (NBHWC Scope)"
     },
-    "category": ""
+    "category": "Coaching Communication"
   },
   {
     "id": 11,
-    "question": "If  you as the c oach ex perience a tr aumatic life eve nt t hat you fe el wil l eff ec t your abil it y to coach, p er the IC F S tandards of Ethi cal C onduct you shoul d:",
+    "question": "Which of the following is an example of affirming a client during a coaching session?",
     "options": {
-      "A": "Cont inue to coach and  surve y your cli ent at the end to s ee how you p erfo rmed",
-      "B": "Ask your cli ent i f the y would be will ing to t ake a break from co achin g C . S uspend or terminate the coa ching relations hip and ref er them t o anothe r  coach",
-      "C": "",
-      "D": ""
+      "A": "You've clearly thought this through and taken big steps forward.",
+      "B": "Why didn't you try a different strategy sooner?",
+      "C": "Let's go over what didn't work last time.",
+      "D": "You've been struggling with this for a while now."
     },
-    "correct": "",
+    "correct": "A",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Correct. This affirmation recognizes the client's effort and supports self-efficacy. (*MI*, p. 93; NBHWC 2.2)",
+      "B": "This is critical and may damage rapport rather than build confidence. (NBHWC Ethics)",
+      "C": "Focusing on past failures can lower motivation unless reframed constructively. (*Coaching Psychology Manual*)",
+      "D": "This statement may reinforce struggle instead of celebrating strengths. (NBHWC 2.1)"
     },
-    "category": ""
+    "category": "Coaching Communication"
   },
   {
     "id": 12,
-    "question": "If  a co ach promot es los in g 20 pounds i n one w eek after takin g a suppl ement  dail y, the coach is viol ati ng:",
-    "options": {
-      "A": "IC F S tandards o f Ethi cal C onduct",
-      "B": "ACS M Guidelines C . USDA Nutriti onal Guidelines",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 13,
-    "question": "During a coa chin g sessio n as the coa ch you ar e fin ding yoursel f che cking s ocial media. You a re most  li kel y stru ggli n g wi th:",
-    "options": {
-      "A": "Buil ding rapport",
-      "B": "Coachin g pr esenc e C . Empath y",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 14,
-    "question": "P rochaska, No rcross, & DiCl emente recomm end a nurturin g par ent st yle o f coachin g for those in which st a ge:",
-    "options": {
-      "A": "Acti on",
-      "B": "P repa rati on C . P recontemplation",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 15,
-    "question": "The driver o f a visi on st a tement i s one's:",
-    "options": {
-      "A": "Beli e fs",
-      "B": "Values C . Goals",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 16,
-    "question": "W hich of the foll owing would NOT be included i n a coa ching a gre ement?",
-    "options": {
-      "A": "Healt h Hist or y",
-      "B": "Des criptio n of Coachi ng S ervic es C . No - show P oli c y",
-      "C": "",
-      "D": "Fe e S chedule"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 17,
-    "question": "W hich of the foll owing b est describes the righti n g reflex ?",
-    "options": {
-      "A": "Coach gives advic e an d offers solut ions.",
-      "B": "Coach supports t he cli ent's ri ght t o choose  whic h opti on the y want. C . Coach follows the cli e nt's lead.",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 18,
-    "question": "_________ are statem e nts of int ended result s spok en or written in t he first p erson.",
-    "options": {
-      "A": "Goals",
-      "B": "Refle cti ons C . Mi ssi ons",
-      "C": "",
-      "D": "Affirmations"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 19,
-    "question": "The cor e ski ll s of moti vati onal i nterviewing are o f ten described throu gh th e  acron ym OARS . W hat does theA stand fo r?",
-    "options": {
-      "A": "Assi stance",
-      "B": "Ac ce ptan ce C . Affirmi ng",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 20,
-    "question": "C hange st atements m ade b y the cli ent poi nt t o a will ingness t o chan ge. W hich of the foll owin g is NOT a ch an ge statem ent.",
-    "options": {
-      "A": "I know it i s reall y har d.",
-      "B": "I am goin g to do s ome thi ng I just  don't know w hat. C . I c an take control of t his.",
-      "C": "",
-      "D": "If I don 't st op, som eth ing bad will  probabl y h a ppen."
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 21,
-    "question": "If  a co ach gets a cli ent t o  begin advocati n g fo r the ir own chan ge , thi s is  call ed:",
-    "options": {
-      "A": "Reframi n g",
-      "B": "Evokin g C . S tructuring",
-      "C": "",
-      "D": "Zoomi n g"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 22,
-    "question": "Goal - sett ing th eor y inclu des four mech anism s for behavior ch an ge . W hich of the foll owing is no t a mechanism  of go al - sett ing theor y?",
-    "options": {
-      "A": "Directed att enti on",
-      "B": "P ersist enc e C . Mot ivation",
-      "C": "",
-      "D": "St rate g y"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 23,
-    "question": "W hat shou ld you as he c oach alw a ys d o befo re pr ovidi ng advic e?",
-    "options": {
-      "A": "W ait  unti l t he end of the sessi on.",
-      "B": "Make su re the cli ent is i n the right st a ge o f chan ge. C . Ask permiss ion.",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 24,
-    "question": "W hen the interacti on of s kil l and chall en ge a re ma tched you ar e said to be e x periencing____?",
-    "options": {
-      "A": "Fulfill ment",
-      "B": "W ell - bein g C . Flow",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 25,
-    "question": "If  the cli ent i s lar gel y res ist ant t o change the y a re most  li kel y in wh ich st a ge of chan ge?",
+    "question": "A client says they are thinking about changing but are not ready to act. Which stage of change are they in?",
     "options": {
       "A": "Precontemplation",
-      "B": "Con templation C . P reparati on",
-      "C": "",
-      "D": "Maint enanc e"
+      "B": "Contemplation",
+      "C": "Preparation",
+      "D": "Action"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 26,
-    "question": "W hich of the foll owing i s NOT a domain of emot ional int ell igence?",
-    "options": {
-      "A": "Self - Awa ren ess",
-      "B": "S elf - Man a gement C . S elf - Fulfill ment",
-      "C": "",
-      "D": "Social Awar eness"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 27,
-    "question": "W hich of the foll owing i s an ex ampl e of an unbia sed questi on?",
-    "options": {
-      "A": "W here mi ght you st art ?",
-      "B": "Hav e you consi de red hiring a p ersonal t r ainer? C . Can you set a go al t o compl ete nex t week?",
-      "C": "",
-      "D": "Have you thou ght abo ut keeping a food lo g?"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 28,
-    "question": "W hich open - ended questi on would be best i f your cli ent i s not  read y to cha nge at all?",
-    "options": {
-      "A": "W hat would have to happen that would si gn al yo u that it 's ti me to st art thi nking about chan gin g?",
-      "B": "W hat would be some posi ti ve aspects of ch an ging ri ght now? C . W hat has worked for yo u in t he past?",
-      "C": "",
-      "D": "W hat are som e posi ti ve aspects of n ot chan gin g right now?"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 29,
-    "question": "S elf - disclosure on the pa rt of the coa ch is o ften no t advised. W hich of the f oll owing re ason would make self - disclosu re approp riate?",
-    "options": {
-      "A": "To let you r cli ent kno w you 'v e ex perienc ed so mething sim il ar",
-      "B": "To promot e trust C . To give your cli ent t im e to t hink",
-      "C": "",
-      "D": "To show s ymp ath y"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 30,
-    "question": "C oaches ar e som eti mes c all ed \"guides on the sid e\". Thi s means:",
-    "options": {
-      "A": "You provide onl y hel pful sug gesti ons.",
-      "B": "You a re com fortable n ot knowing what i s best f or you r cli ent. C . You provide educ ati on at each s essi on.",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 31,
-    "question": "In which si tuation would di ali ng 2 - 1 - 1 b e im porta nt?",
-    "options": {
-      "A": "In an eme r gen c y sit uati on while coachin g",
-      "B": "If you r cli ent i s goin g through a  high st r ess si tuation at work C . Recogniz ing s ympt oms o f depressi on in your cl ient.",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 32,
-    "question": "W hich of the foll owing i s NOT an ex ampl e of mindful li stening?  (C oaching P s ycholo g y Manual pg. 34)",
-    "options": {
-      "A": "Pause afte r your cli ent  has spoken.",
-      "B": "List en for onl y the fac ts. C . Do not int errupt (ex ce pt i f a cli ent wande rs off track)",
-      "C": "",
-      "D": "Mirror what t he cli ent  has said to confirm your understandin g."
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 33,
-    "question": "P rochaska & P roch aska i n their book C hangin g to  Thrive (p g.12) indic ate t hat t he most significant j ump from on e stage of chan ge to t he n ex t i s between _______ and ________.",
-    "options": {
-      "A": "Precontemplation \u000f\u00f7 contemplation",
-      "B": "Con templation \u000f\u00f7 P reparati on C . P reparati on \u000f\u00f7 Acti on",
-      "C": "",
-      "D": "Acti on \u000f\u00f7 Maintenance"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 34,
-    "question": "Your cli ent t ell s you th eir provider tol d them the y need to i ncre ase their H D L but h e doesn 't even know what t hat i s. S o, he asks you to ex plain it . Which d escriptio n below b est describes wh at HD L is?",
-    "options": {
-      "A": "The tot al cholesterol l evel i n the blood.",
-      "B": "The aver a ge lev el of s uga r in the blood. C . The tot al amount of fa t i n the blood.",
-      "C": "",
-      "D": "The level of \"good ch olesterol\" in t he blood."
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 35,
-    "question": "In Dr. Barks Book, W isdom  of the W hole (pg. 41) , shedescribes coa ching as a cli ent - empowered mod el - cli ent s are se en as c apable o f b eing sel f - aw ar e. Your cli ent t ell s you sh e alwa ys fail s at tr yin g to work out. S he has si gn ed  up for g ym memberships, bought ho me ex ercise equipm ent, b ough t DVDs, and more. Keepin g in m ind Dr. Bar ks descriptio n of coa chin g, which o f the foll owin g refle cti on best repres ents t his empower ment model.",
-    "options": {
-      "A": "You'v e tried a lot  of things.",
-      "B": "You a re ve r y resil ient and are not givi n g up. C . W orking out i s hard w ork.",
-      "C": "",
-      "D": " W orking out i s not  yo ur favorite thi n g to do."
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 36,
-    "question": "C oaching p ro grams often  teach that askin g W HY questi ons are not i deal be cause it put s clients on the defensive (Arloski  pg. 121). P le ase r ewrit e the questi on below to av oid us ing W HY. W hat is another wa y you c an a sk t his qu esti on? \"W h y don 't you jus t t r y to ex ercise? \"",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 37,
-    "question": "You are on you r second s essi on with your cli ent a nd she tells you she is no t satis fied with her stress l evels. It st resses h er out just  thi nking about  it . Her goals i s to reduc e  her stress l ev els to increas e her ener g y. P rio r to thi s session, she took a stren gths assessm ent. Her stren gths i ncluded braver y, humo r, and f air ness. Her low est cate go ries in t he stren gths assess me nt were grati tude, prudence, and c reati vit y. W hich of the foll owing i s the most  appropriate ap proach fo r this client?  (Coachin g P s yc holog y Manual, p g. 50, 107).",
-    "options": {
-      "A": "Encoura ge the cli ent t o ex plore her artist ic side .",
-      "B": "Encou ra ge the cli ent t o use a grati tude journ al. C . Establis h a schedule to set aside li stening to t h e meditatio n app He adS pace.",
-      "C": "",
-      "D": "Ex plore the cli ent's st r engths t o find w a ys to m eet her go als."
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 38,
-    "question": "Based on you r cli ent 's he alt h hist or y she has b een ex ercisi ng r e gularl y (biki ng) for thre e ye ars maintaining 175 mi nutes per we ek. S he indi cated t o you he r new go al i s to co mpl ete a triathlon and she has al read y sta rte d adding som e running a nd swim mi ng to her we e kl y routi ne. W hich stage of chan ge is t he cli ent m ost l ikel y in as it  pertains t o her ne w goal of compl eti ng a tr iathlon?  (P rochaska & P rochaska pp. 1 - 33 )",
-    "options": {
-      "A": "Maint ena nc e",
-      "B": "Acti on C . P reparati on",
-      "C": "",
-      "D": "Cont empl ati on E. Precontemplation"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 39,
-    "question": "Your cli ent i s goin g to be  assessed for ob esit y at hi s nex t vi sit. The _____ measurem ent i s mos t comm on and the ______ measurement is  best fo r a ssessing visce ral f at. (He alt h Harva rd Link in S tud y Guide)",
-    "options": {
-      "A": "W aist - to - hip;  S kinfolds",
-      "B": "S kinfolds;  BM I C . BM I; W aist - to - hip",
-      "C": "",
-      "D": "MR I; S kinfolds"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 40,
-    "question": "A coach s ees hi s client i n  the gro ce r y store with w hat appea rs to be her mot her standin g nex t t o her. He approa ches hi s cl ient and tells  her what a gr eat j o b she has b een do ing with her wei ght loss  and sm oking cess ati on. Accordin g to t he IC H W C  C ode of Ethi cs, which of the foll owin g (A) Confidentialit y (B) Confli ct of int e rest (C) Consen t (D) Professi onal bound ar ies (E) Scope of p racti c e",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 41,
-    "question": "C li ent:  M y boss driv es me craz y. I'v e tried talkin g with her, going above an d be yond when asked, sta yin g late, and b eing ov erl y posi ti ve and no matter what all s he do es is  critiqu e m y wo rk and tell m e to tr y h arde r. I am not  sure wh at else I can do. C oach: You 've tried sev e ral t hings to app ease you r boss and nothi ng se ems  to be workin g and yo u f eel at a loss  at wh at to do n ex t. W hich of the foll owing s kil ls i s the coach mos t l ikel y d emons trati ng?",
-    "options": {
-      "A": "Bein g p ati ent",
-      "B": "Double - sid ed re flecti o n C . Elicit ing mot ivation",
-      "C": "",
-      "D": "Sum mariz ing"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 42,
-    "question": "Your cli ent set t he foll ow ing goal:  S he will  ex ercis e 3 da ys a w eek on Mond a y, W edn esda y, and Frida y at 4pm  fo r the nex t 8 weeks be ginni n g toda y. Note: S he has consis tently ex erci s ed two da ys a w eek for 6 mont hs and h er overall  visi on includes enhanc ed fitness  and incre ased en er g y. W hich of the foll owing S MART component i s she mis sing from her go al?",
-    "options": {
-      "A": "Specific",
-      "B": "Measu rable C . Reali sti c",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 43,
-    "question": "Describe th e MAJ OR di fferen ces betw een the C D C 's M yP lat e and H arva rd 's H ealt h y Eati n g P late ( IC HW C  Guideli nes for Ex am page 30).",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 44,
-    "question": "C li ent:  I don 't have ti me t o prep healt h y food for l unch or dinner and neit he r does an yone in m y fami l y! C oach: S ince you don 't h ave ti me to good p rep, let 's talk about the smoot hie s you said you w ere drinki ng 3 ti mes a w eek and lovi ng them. W hich reflecti ve li stenin g ski ll  is t he coach usi n g?  (W ell C oaches manual page 68)",
-    "options": {
-      "A": "Si mpl e R eflecti on",
-      "B": "S hifted - Focus R efle cti on C . Ampli fied Reflecti on",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 45,
-    "question": "A Coach and Cl ient ar e work ing on go al - sett ing. The C oach asks t he qu esti on: \" Is thi s go al withi n your c apabil it ies? \" and \"Do es thi s goal d ep end on an yone else 's choi ces? \" W hich of the lett ers in the SM ART acron ym i s the coa ch tr yin g to clarif y?",
-    "options": {
-      "A": "Specific",
-      "B": "Measu rable C . Attaina ble",
-      "C": "",
-      "D": "Relevant E. Time - S pecific"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 46,
-    "question": "Your cli ent st ates to you in your se cond sessi on: \"M y doctor s a ys I hav e h igh blood pressur e, hi gh C HO, and I am pr e - diab e ti c. I just  don 't even know wher e to st art.\" R espond below with an Open - Ended qu esti on in response to thi s st atemen t your cli ent m ad e to yo u.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 47,
-    "question": "C li ent:  \"I h ave 3 kids  and  a full - ti me job and am t a king c are o f m y a gin g fat her - in - law. I hav e no ti me for healt h y e ati ng. C oach: I compl etel y und erstand. I hav e kids and a m a car etake r too. It i s so  frustrati n g bu t I am gett in g throu gh it  and so can you. W hich of the foll owing i s the coach ex hibi ti ng:",
-    "options": {
-      "A": "Pi t y",
-      "B": "S ymp ath y C . Empath y",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 48,
-    "question": "R esearch indi c ates posit ive aff ect and emot ion ca n not onl y af fect m ent al healt h but also ph ysic al healt h b y:",
-    "options": {
-      "A": "Dec reasin g pain",
-      "B": "Enh an cing im mune fu ncti on C . Inc reas ed lon gevit y",
-      "C": "",
-      "D": "All  of the above"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 49,
-    "question": "Discord ma y app ear du ring a coa ching s essi on. W hich of the foll owin g is NOT a si gn of discord in t he cli ent - coa ch relatio nshi p?  (ACE textbook)",
-    "options": {
-      "A": "Def ending",
-      "B": "Inter rupting C . Disenga gement",
-      "C": "",
-      "D": "Questi oning"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 50,
-    "question": "C li ent:  I know that i f I go t a g ym m embe rship I w ould definelt y inc re ase m y ph ysical acti vit y but I am so worried about l ooking dumb or gett in g inj ured. W hich stage of chan ge is t his cli ent m ost l ikel y in ?  (P rochaska, Pa ge 15).",
-    "options": {
-      "A": "Precontem plation",
-      "B": "Con templation C . P reparati on",
-      "C": "",
-      "D": "Neve r gonna do it . \u0003\u00a5"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 1,
-    "question": "",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 2,
-    "question": "",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 3,
-    "question": "help you. Id enti f y the t ype of refle c ti on for each response lis ted above. (Mi ll er & R oll nick, pg. 209 )",
-    "options": {
-      "A": "1. Ampl ified2. S im ple 3. Double - sided",
-      "B": "1. S im ple 2. Double - si ded 3. Ampli fied C . 1. Double - sided 2. S im ple 3. Ampl ified",
-      "C": "",
-      "D": "1. Double - sided 2. A mpl i fied 3. S im ple"
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 1,
-    "question": "Outcome goal",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 2,
-    "question": "C",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 3,
-    "question": "C",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 4,
-    "question": "S im ple: I h ea r you sa y you've t ried eve r ythi ng. ; Ampli fied si mpl e reflecti on: I he ar you s a y nothi ng works so wh y bo ther.",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 5,
-    "question": "D",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 6,
-    "question": "A",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 7,
-    "question": "A or B",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 8,
-    "question": "B",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 9,
-    "question": "A",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 10,
-    "question": "No",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 11,
-    "question": "C",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
-  },
-  {
-    "id": 12,
-    "question": "A",
-    "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "correct": "",
-    "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
-    },
-    "category": ""
+      "A": "Precontemplation involves no recognition of the need for change. (*Changing to Thrive*, p. 31)",
+      "B": "Correct. Contemplation involves ambivalence and awareness without commitment. (NBHWC 2.4)",
+      "C": "Preparation includes intention and small steps toward change. (NBHWC Coaching Process)",
+      "D": "Action refers to active behavior change, not just consideration. (*Changing to Thrive*)"
+    },
+    "category": "Stages of Change"
   },
   {
     "id": 13,
-    "question": "B",
+    "question": "Which of the following statements best reflects the coaching mindset?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "I will educate my clients on the right lifestyle choices.",
+      "B": "Clients need accountability to stick to plans.",
+      "C": "Clients are naturally resourceful and capable of change.",
+      "D": "I need to motivate my clients to change."
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This puts the coach in an expert role rather than collaborative partner. (NBHWC Code of Ethics)",
+      "B": "Accountability is important, but should be client-led, not imposed. (NBHWC 2.2)",
+      "C": "Correct. A core coaching belief is that clients are whole and resourceful. (*Coaching Psychology Manual*, p. 16)",
+      "D": "Motivation is evoked, not instilled by the coach. (*MI*, p. 20)"
     },
-    "category": ""
+    "category": "Coaching Presence"
   },
   {
     "id": 14,
-    "question": "C",
+    "question": "What is the role of the coach during the Preparation stage of change?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Explore ambivalence about change",
+      "B": "Evoke values and vision",
+      "C": "Support goal setting and small actions",
+      "D": "Identify barriers to change"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This is more relevant in the Contemplation stage. (*Changing to Thrive*, p. 58)",
+      "B": "Visioning often occurs earlier to build readiness. (NBHWC 2.4)",
+      "C": "Correct. In Preparation, the client is ready to plan and take small steps. (*Changing to Thrive*, p. 72)",
+      "D": "Barriers are addressed throughout, but action is central in Preparation. (NBHWC Goal Setting)"
     },
-    "category": ""
+    "category": "Stages of Change"
   },
   {
     "id": 15,
-    "question": "B",
+    "question": "Which coaching technique is most appropriate when a client is feeling discouraged?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Point out what they did wrong",
+      "B": "Remind them of their commitment",
+      "C": "Explore past successes and strengths",
+      "D": "Suggest a stronger plan"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Focusing on failure can increase discouragement. (NBHWC Ethics)",
+      "B": "This may feel like pressure rather than support. (*MI*, p. 61)",
+      "C": "Correct. Exploring strengths supports confidence and intrinsic motivation. (*Coaching Psychology Manual*, p. 104)",
+      "D": "This assumes the coach knows best, rather than empowering the client. (NBHWC 2.2)"
     },
-    "category": ""
+    "category": "Client Self-Efficacy"
   },
   {
     "id": 16,
-    "question": "A",
+    "question": "Which of the following best describes a 'powerful question'?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "A question that pushes the client to take action",
+      "B": "A question that leads to a yes or no answer",
+      "C": "A question that invites reflection and insight",
+      "D": "A question that helps diagnose the client\u2019s issue"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Coaching avoids pushing; it invites discovery. (NBHWC Coaching Process)",
+      "B": "Yes/no questions limit exploration and insight. (*MI*, p. 74)",
+      "C": "Correct. Powerful questions evoke values, insight, and self-awareness. (NBHWC 2.2, *Coaching Psychology Manual*)",
+      "D": "Diagnosing is outside the coaching scope. (NBHWC Scope of Practice)"
     },
-    "category": ""
+    "category": "Powerful Questioning"
   },
   {
     "id": 17,
-    "question": "A",
+    "question": "Which of the following best reflects the use of reflective listening?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Offering a similar personal story",
+      "B": "Repeating the client\u2019s words verbatim",
+      "C": "Summarizing what you heard to check understanding",
+      "D": "Telling the client what they should do"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Sharing stories can shift focus away from the client. (NBHWC 2.2)",
+      "B": "Repeating exactly is parroting, not reflection. (*MI*, p. 75)",
+      "C": "Correct. Reflective listening includes paraphrasing and checking for meaning. (NBHWC 2.2, *MI*)",
+      "D": "Advising undermines autonomy and self-directed learning. (NBHWC Ethics)"
     },
-    "category": ""
+    "category": "Coaching Communication"
   },
   {
     "id": 18,
-    "question": "D (bad word ed questi on t hough) Yep. I can s ee now wh y thi s is  confusin g. M y questi on was relat ed to t he cli ent m aking a ffirmative state ments about t hemselves and not t he coa ch providi ng a ffirmations t o the cli ent.",
+    "question": "What is the most coach-like response to a client saying: \u201cI\u2019ve failed at every diet I\u2019ve tried.\u201d?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Why do you think that is?",
+      "B": "Maybe you haven\u2019t tried hard enough.",
+      "C": "It sounds like you\u2019ve had some frustrating experiences.",
+      "D": "You just need to stay focused this time."
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "\u2018Why\u2019 can sound judgmental and provoke defensiveness. (*MI*, p. 65)",
+      "B": "Blaming the client breaks rapport and trust. (NBHWC Ethics)",
+      "C": "Correct. This is an empathic reflection that validates the client\u2019s feelings. (NBHWC 2.1, *MI*)",
+      "D": "This advice may feel dismissive of the client\u2019s lived experience. (NBHWC 2.2)"
     },
-    "category": ""
+    "category": "Empathic Listening"
   },
   {
     "id": 19,
-    "question": "C",
+    "question": "Which coaching approach is most appropriate for a client in the Action stage?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Help them identify long-term vision",
+      "B": "Support problem-solving and sustaining change",
+      "C": "Address ambivalence and explore values",
+      "D": "Refer them to a mental health provider"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Visioning is often used earlier to build motivation. (NBHWC Coaching Process)",
+      "B": "Correct. Action stage involves taking steps and overcoming obstacles. (*Changing to Thrive*, p. 87)",
+      "C": "Ambivalence is usually resolved earlier (Contemplation/Preparation). (*Changing to Thrive*)",
+      "D": "Referral is not required unless there\u2019s a clinical need. (NBHWC Scope)"
     },
-    "category": ""
+    "category": "Stages of Change"
   },
   {
     "id": 20,
-    "question": "A",
+    "question": "What is the most ethical coach response if a client begins discussing suicidal thoughts?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Listen deeply and keep the conversation confidential",
+      "B": "Empathize and schedule more sessions to provide support",
+      "C": "Immediately refer the client to appropriate mental health care",
+      "D": "Help them make a plan to manage stress better"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Safety overrides confidentiality in cases of harm risk. (NBHWC Code of Ethics)",
+      "B": "Coaches are not trained to handle crises or suicidal ideation. (NBHWC Scope & Referral)",
+      "C": "Correct. Coaches must refer clients to qualified professionals in such situations. (NBHWC Ethics)",
+      "D": "Offering support is not enough\u2014this situation exceeds coaching scope. (*Coaching Psychology Manual*, Ch. 10)"
     },
-    "category": ""
+    "category": "Ethics"
   },
   {
     "id": 21,
-    "question": "B",
+    "question": "Which of the following is a key principle of Motivational Interviewing (MI)?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Correct the client's distorted beliefs",
+      "B": "Confront the client\u2019s resistance",
+      "C": "Elicit the client\u2019s own motivations for change",
+      "D": "Offer logical reasons to change"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "MI avoids correcting and instead supports client autonomy. (*Motivational Interviewing*, p. 25)",
+      "B": "MI works with, not against, resistance by rolling with it. (NBHWC 2.2)",
+      "C": "Correct. MI emphasizes evoking internal motivation for sustainable change. (*MI*, p. 18; NBHWC Coaching Process)",
+      "D": "Logic alone rarely results in lasting change without client engagement. (*MI*, p. 21)"
     },
-    "category": ""
+    "category": "Motivational Interviewing"
   },
   {
     "id": 22,
-    "question": "C",
+    "question": "Which of the following best illustrates a coach working within scope of practice?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Designing a personalized meal plan based on lab results",
+      "B": "Diagnosing a client\u2019s health condition from symptoms",
+      "C": "Guiding a client to evidence-based nutrition resources",
+      "D": "Suggesting herbal supplements for anxiety"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This is a task for licensed dietitians or healthcare providers. (NBHWC Scope of Practice)",
+      "B": "Diagnosis is explicitly outside the coaching role. (*Coaching Psychology Manual*, Ch. 10)",
+      "C": "Correct. Coaches can guide clients to reputable resources to support self-directed change. (NBHWC 1.1)",
+      "D": "Recommending supplements falls outside scope unless appropriately credentialed. (NBHWC Ethics)"
     },
-    "category": ""
+    "category": "Scope & Referral"
   },
   {
     "id": 23,
-    "question": "C",
+    "question": "A client has been consistently meeting their goals. What is the coach's most appropriate next step?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Ask how they might increase the difficulty",
+      "B": "Celebrate their success and ask what they\u2019ve learned",
+      "C": "Move on to a different area of wellness",
+      "D": "Advise them to maintain current behavior indefinitely"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Increasing difficulty too quickly can backfire. (NBHWC Goal Setting)",
+      "B": "Correct. Acknowledging wins and reflection fosters confidence and autonomy. (*Coaching Psychology Manual*, p. 104)",
+      "C": "Shifting too soon may overlook valuable reflection and consolidation. (NBHWC 2.4)",
+      "D": "Long-term advice assumes client readiness without their input. (NBHWC Ethics)"
     },
-    "category": ""
+    "category": "Client Self-Efficacy"
   },
   {
     "id": 24,
-    "question": "C",
+    "question": "What is the coach\u2019s role when a client expresses self-doubt?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Challenge their negative thinking",
+      "B": "Reframe it with motivational statements",
+      "C": "Invite the client to reflect on past strengths",
+      "D": "Suggest they try harder"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Challenging too directly can lead to defensiveness. (*MI*, p. 59)",
+      "B": "Motivational statements from the coach may feel inauthentic. (NBHWC 2.2)",
+      "C": "Correct. Recalling strengths promotes empowerment and confidence. (*Coaching Psychology Manual*, p. 106)",
+      "D": "Telling clients to try harder can reduce motivation. (NBHWC Code of Ethics)"
     },
-    "category": ""
+    "category": "Client Self-Efficacy"
   },
   {
     "id": 25,
-    "question": "A",
+    "question": "A client says, \u201cI know I need to eat better, but I just don\u2019t have time.\u201d Which is the best coaching response?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Why don\u2019t you make time for your health?",
+      "B": "You sound overwhelmed\u2014tell me more about what\u2019s going on.",
+      "C": "Here\u2019s a quick plan you can follow.",
+      "D": "You need to prioritize nutrition."
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This can sound judgmental and shut down dialogue. (*MI*, p. 65)",
+      "B": "Correct. This response shows empathy and invites client exploration. (NBHWC 2.2, *MI*)",
+      "C": "Giving unsolicited plans removes ownership from the client. (*Coaching Psychology Manual*)",
+      "D": "Telling clients what they 'need' can reduce autonomy. (NBHWC Ethics)"
     },
-    "category": ""
+    "category": "Empathic Listening"
   },
   {
     "id": 26,
-    "question": "C",
+    "question": "Which of the following best reflects the concept of 'coach presence'?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Being prepared with educational materials",
+      "B": "Being fully attentive and open in the moment",
+      "C": "Having credentials and clinical knowledge",
+      "D": "Having a clear coaching plan for each session"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Being prepared is helpful but not the essence of presence. (NBHWC Coaching Presence)",
+      "B": "Correct. Presence is about mindful connection and attunement to the client. (*Coaching Psychology Manual*, p. 36)",
+      "C": "Credentials are important but don\u2019t define presence. (NBHWC 1.1)",
+      "D": "A rigid plan may hinder flexibility and responsiveness. (NBHWC 2.1)"
     },
-    "category": ""
+    "category": "Coaching Presence"
   },
   {
     "id": 27,
-    "question": "A",
+    "question": "Which of the following is NOT a quality of effective goals?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Vague and exploratory",
+      "B": "Time-bound",
+      "C": "Specific",
+      "D": "Measurable"
     },
-    "correct": "",
+    "correct": "A",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Correct. Effective goals must be clear and actionable, not vague. (NBHWC 2.4, *Coaching Psychology Manual*)",
+      "B": "Time-bound goals help with tracking and accountability. (*Changing to Thrive*, p. 87)",
+      "C": "Specific goals offer clarity and direction. (NBHWC Goal Setting)",
+      "D": "Measurable goals allow progress to be evaluated. (*Health & Wellness Coaching*, Ch. 5)"
     },
-    "category": ""
+    "category": "Goal Setting"
   },
   {
     "id": 28,
-    "question": "A -- B and D are d ecisi o nal balanc e questi ons an d decisi onal balanc e a cti vit ies are most appropriate for those in c ontemplation. S ince thi sperson is i n precontempl ati on an ythi n g you can do to get t hem t o re c ogniz e signs o f chan ge e ntering thei r lives is  a ste p forwa rd (questi on A). Questi on C  would be for those that a re alr ead y thi nking o r wo rking tow ard chan ge.",
+    "question": "When does a coach make a referral to another professional?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "When the coach feels uncomfortable",
+      "B": "When a client asks about legal advice",
+      "C": "When a client wants faster results",
+      "D": "When coaching strategies are ineffective"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Referrals must be based on scope, not comfort alone. (NBHWC Scope of Practice)",
+      "B": "Correct. Legal advice is outside coaching scope and requires referral. (NBHWC Ethics)",
+      "C": "Wanting faster results doesn\u2019t warrant referral if within coaching scope. (NBHWC Coaching Process)",
+      "D": "Ineffectiveness may call for adjustments\u2014not automatically a referral. (*Coaching Psychology Manual*)"
     },
-    "category": ""
+    "category": "Scope & Referral"
   },
   {
     "id": 29,
-    "question": "B",
+    "question": "Which is an example of an open-ended question?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Did you walk today?",
+      "B": "Have you tried journaling?",
+      "C": "How do you feel after a walk?",
+      "D": "Do you feel better now?"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This is a yes/no question and limits exploration. (*MI*, p. 74)",
+      "B": "Closed questions can be useful but don't invite deep reflection. (NBHWC 2.2)",
+      "C": "Correct. Open-ended questions explore experience and insight. (NBHWC Coaching Communication)",
+      "D": "This assumes improvement and restricts the client\u2019s response. (*Coaching Psychology Manual*)"
     },
-    "category": ""
+    "category": "Powerful Questioning"
   },
   {
     "id": 30,
-    "question": "B",
+    "question": "Which of the following best demonstrates empathy?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "I understand what you're going through.",
+      "B": "You're having a tough time right now.",
+      "C": "You'll feel better soon.",
+      "D": "It\u2019s not that bad, others have it worse."
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This may imply the coach knows how the client feels, which may not be true. (*MI*, p. 68)",
+      "B": "Correct. This reflection acknowledges the client\u2019s current emotional state. (NBHWC 2.1, *MI*)",
+      "C": "This minimizes present emotions and assumes a future outcome. (NBHWC Ethics)",
+      "D": "This dismisses and invalidates the client\u2019s experience. (*Coaching Psychology Manual*)"
     },
-    "category": ""
+    "category": "Empathic Listening"
   },
   {
     "id": 31,
-    "question": "C - - You ma y not actu all y c all  you rself but you w ould refer to resour ces on  the 2 - 1 - 1 li st i f yo u noti ced an y signs/s ympt oms t o document you  have done the ref err al. Most  people go above and b e yond thi s and have people th e y know  for re fer rals but  at m ini mum  the ethi cal ex pectat ion i s usuall y at l east a r esourc e on your l ocal 2 - 1 - 1 r esourc e.",
+    "question": "Which of the following best represents a SMART goal?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "I want to be healthier someday.",
+      "B": "I plan to walk 30 minutes, 5 days a week, starting tomorrow.",
+      "C": "I might try eating more vegetables soon.",
+      "D": "I hope to lose some weight eventually."
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Too vague and lacks specificity and timeframe. (NBHWC 2.4, SMART Goals)",
+      "B": "Correct. This goal is Specific, Measurable, Achievable, Relevant, and Time-bound. (*Coaching Psychology Manual*, p. 137)",
+      "C": "Unclear and non-committal\u2014doesn't meet SMART criteria. (NBHWC Goal Setting)",
+      "D": "Lacks measurable and time-bound elements. (*Changing to Thrive*, p. 86)"
     },
-    "category": ""
+    "category": "Goal Setting"
   },
   {
     "id": 32,
-    "question": "B",
+    "question": "A client says, \u201cI should really exercise more.\u201d What\u2019s the best coach response?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "You know your body best. What has worked for you in the past?",
+      "B": "Yes, you should\u2014exercise is important.",
+      "C": "Try this fitness app I use.",
+      "D": "You need to start with a morning routine."
     },
-    "correct": "",
+    "correct": "A",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Correct. This respects autonomy and invites reflective thinking. (*MI*, p. 55; NBHWC 2.2)",
+      "B": "Reinforces the 'righting reflex' and may provoke resistance. (NBHWC Coaching Communication)",
+      "C": "Unsolicited advice shifts focus away from client ownership. (*Coaching Psychology Manual*)",
+      "D": "Directive approach undermines client-driven discovery. (NBHWC Ethics)"
     },
-    "category": ""
+    "category": "Motivational Interviewing"
   },
   {
     "id": 33,
-    "question": "A",
+    "question": "Which of the following is within the NBHWC scope of practice?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Counseling a client through depression",
+      "B": "Referring a client to a registered dietitian",
+      "C": "Recommending supplements based on blood tests",
+      "D": "Diagnosing chronic fatigue syndrome"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Mental health counseling is outside scope unless licensed. (NBHWC Scope of Practice)",
+      "B": "Correct. Coaches may refer to licensed professionals when needs exceed coaching boundaries. (NBHWC 1.1, 1.2)",
+      "C": "Recommending supplements requires licensure and specific credentials. (*Coaching Psychology Manual*)",
+      "D": "Diagnosing is outside the health coach role. (NBHWC Ethics)"
     },
-    "category": ""
+    "category": "Scope & Referral"
   },
   {
     "id": 34,
-    "question": "D",
+    "question": "According to the CDC, what is the recommended amount of physical activity for adults per week?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "60 minutes of moderate-intensity activity",
+      "B": "150 minutes of moderate-intensity activity",
+      "C": "100 minutes of vigorous-intensity activity",
+      "D": "200 minutes of moderate activity"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Too low\u2014does not meet national guidelines. (CDC Physical Activity Guidelines)",
+      "B": "Correct. The CDC recommends at least 150 minutes of moderate-intensity exercise weekly. (CDC.gov)",
+      "C": "Too little even at higher intensity unless supplemented. (CDC/AHA Guidelines)",
+      "D": "200 minutes is acceptable but not the minimum baseline. (ACSM/CDC)"
     },
-    "category": ""
+    "category": "Health & Wellness Knowledge"
   },
   {
     "id": 35,
-    "question": "B",
+    "question": "What is the most appropriate way for a coach to handle a long silence during a session?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Quickly change the topic",
+      "B": "Wait patiently and observe",
+      "C": "Ask if the client is uncomfortable",
+      "D": "Start summarizing the session"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Changing the subject may interrupt client\u2019s reflection. (NBHWC 2.1)",
+      "B": "Correct. Silence often supports deeper thought and emotional processing. (*Coaching Psychology Manual*, p. 58)",
+      "C": "May break the client\u2019s internal process prematurely. (NBHWC Coaching Presence)",
+      "D": "Summarizing too early can disrupt the client\u2019s direction. (NBHWC Ethics)"
     },
-    "category": ""
+    "category": "Coaching Presence"
   },
   {
     "id": 36,
-    "question": "How can you add move ment int o your life?  W hat do you thi nk the bene fits of ex ercisi ng are? W hat do you thi nk it  would be li ke to ex ercise?",
+    "question": "What is the coach\u2019s best response if a client says, \u201cI failed again. I\u2019ll never change.\u201d?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "You need to be more disciplined.",
+      "B": "That sounds hard\u2014what feels most discouraging?",
+      "C": "Let\u2019s make a stricter plan for next time.",
+      "D": "Maybe this isn\u2019t the right goal for you."
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Blaming reduces client confidence and violates empathy. (*MI*, p. 67)",
+      "B": "Correct. This demonstrates empathic listening and opens space for reflection. (NBHWC 2.1, *Coaching Psychology Manual*)",
+      "C": "Imposing structure too soon may overlook root emotion. (NBHWC Goal Setting)",
+      "D": "May reinforce failure mindset instead of curiosity. (*MI*)"
     },
-    "category": ""
+    "category": "Empathic Listening"
   },
   {
     "id": 37,
-    "question": "D",
+    "question": "Which of the following best demonstrates the principle of autonomy?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Let me tell you what worked for other clients.",
+      "B": "Here\u2019s a proven method you should follow.",
+      "C": "What approach feels right for you?",
+      "D": "You\u2019ll need to follow this schedule to succeed."
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This shifts attention to others instead of empowering the client. (NBHWC Coaching Process)",
+      "B": "Telling clients what to do minimizes their decision-making role. (*MI*, p. 18)",
+      "C": "Correct. Supporting autonomy means helping clients choose their path. (NBHWC Code of Ethics)",
+      "D": "Over-prescriptive strategies violate client-centered coaching. (NBHWC Scope)"
     },
-    "category": ""
+    "category": "Client Autonomy"
   },
   {
     "id": 38,
-    "question": "B",
+    "question": "Which tool is most useful for supporting vision and goal alignment?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Health risk questionnaire",
+      "B": "Food diary",
+      "C": "Wellness vision statement",
+      "D": "Referral form"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "This assesses risk but doesn\u2019t engage intrinsic motivation. (NBHWC Assessment Tools)",
+      "B": "Tracks eating habits but doesn\u2019t reflect deeper goals. (*Coaching Psychology Manual*)",
+      "C": "Correct. A wellness vision statement inspires and directs meaningful goal setting. (NBHWC 2.4)",
+      "D": "Used for scope management, not vision alignment. (NBHWC Scope of Practice)"
     },
-    "category": ""
+    "category": "Goal Setting"
   },
   {
     "id": 39,
-    "question": "C",
+    "question": "How should a coach respond if a client expresses interest in a restrictive fad diet?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Refer to a licensed dietitian for detailed advice",
+      "B": "Tell them it\u2019s unsafe and ineffective",
+      "C": "Share your own dietary experiences",
+      "D": "Recommend an alternative plan"
     },
-    "correct": "",
+    "correct": "A",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Correct. Discussing restrictive diets is outside scope; refer to a qualified professional. (NBHWC Scope & Referral)",
+      "B": "Labeling a client\u2019s interest may create resistance. (*MI*, p. 64)",
+      "C": "Self-disclosure can shift focus away from the client. (NBHWC Coaching Process)",
+      "D": "Offering plans is not within scope unless credentialed. (NBHWC Code of Ethics)"
     },
-    "category": ""
+    "category": "Scope & Referral"
   },
   {
     "id": 40,
-    "question": "A",
+    "question": "A coach has a close friendship with a current client. What is the ethical response?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Maintain the friendship as long as sessions are separate",
+      "B": "Pause coaching until the friendship resolves",
+      "C": "Continue coaching if both parties agree",
+      "D": "Refer the client to another coach"
     },
-    "correct": "",
+    "correct": "D",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Dual relationships risk bias and conflict of interest. (NBHWC Code of Ethics)",
+      "B": "Friendship conflicts with professional boundaries and objectivity. (*Coaching Psychology Manual*)",
+      "C": "Even mutual agreement doesn\u2019t eliminate ethical concerns. (NBHWC Ethics)",
+      "D": "Correct. Referring preserves professional boundaries and upholds ethical conduct. (NBHWC 1.2)"
     },
-    "category": ""
+    "category": "Ethics"
   },
   {
     "id": 41,
-    "question": "D",
+    "question": "Which of the following best defines 'referral' in the coaching context?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Sending the client educational articles",
+      "B": "Recommending a lifestyle app",
+      "C": "Directing the client to a qualified professional for services outside your scope",
+      "D": "Encouraging the client to self-research an issue"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Sharing resources is educational but not a formal referral. (NBHWC 1.2)",
+      "B": "App recommendations are tools, not referrals. (NBHWC Scope of Practice)",
+      "C": "Correct. A referral involves guiding a client to a licensed or qualified expert when appropriate. (NBHWC Ethics, Scope)",
+      "D": "While promoting autonomy, self-research isn\u2019t a professional referral. (*Coaching Psychology Manual*)"
     },
-    "category": ""
+    "category": "Scope & Referral"
   },
   {
     "id": 42,
-    "question": "A",
+    "question": "Which statement reflects a coach's use of positive psychology?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Let\u2019s discuss your weaknesses first.",
+      "B": "Tell me about a time you overcame a challenge.",
+      "C": "We should focus on what went wrong.",
+      "D": "You must avoid repeating past mistakes."
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Focusing on deficits does not align with strengths-based coaching. (*Coaching Psychology Manual*)",
+      "B": "Correct. Recalling success builds self-efficacy and aligns with positive psychology principles. (NBHWC 2.3, *Positive Psychology Coaching*)",
+      "C": "Negative focus can limit client empowerment. (NBHWC Coaching Process)",
+      "D": "Directive and problem-centered approaches may reduce client autonomy. (*MI*)"
     },
-    "category": ""
+    "category": "Positive Psychology"
   },
   {
     "id": 43,
-    "question": "H arva rd 's He alt h y E ati ng has mor e ve ggies, less fr uit , healt h y oil s, no dair y, water, equ al amount s of whole grains and proteins",
+    "question": "A coach notices a client showing signs of depression. What is the coach\u2019s appropriate response?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Continue coaching while also exploring their feelings deeply",
+      "B": "Diagnose the severity and suggest treatment",
+      "C": "Pause coaching and offer counseling",
+      "D": "Refer the client to a licensed mental health professional"
     },
-    "correct": "",
+    "correct": "D",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Coaching should not attempt therapy or diagnose emotional conditions. (NBHWC Ethics)",
+      "B": "Diagnosis is outside coaching scope. (*Coaching Psychology Manual*)",
+      "C": "Pausing is appropriate only if you are also a licensed provider, which is rare. (NBHWC Scope)",
+      "D": "Correct. Coaches refer clients when mental health needs arise. (NBHWC 1.1, Code of Ethics)"
     },
-    "category": ""
+    "category": "Scope & Referral"
   },
   {
     "id": 44,
-    "question": "B",
+    "question": "Which of the following is true about brainstorming sessions?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Brainstorming sessions last as long as they need to.",
+      "B": "Very specific answers are required.",
+      "C": "No evaluation of quality of answers.",
+      "D": "All of the above"
     },
-    "correct": "",
+    "correct": "D",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Correct. Brainstorming promotes free, creative flow of ideas. (*Coaching Psychology Manual*)",
+      "B": "Correct. Specificity isn\u2019t the goal\u2014creativity is encouraged. (NBHWC 2.2)",
+      "C": "Correct. Judging ideas too early limits innovation. (NBHWC Goal Exploration)",
+      "D": "Correct. All statements support the open, client-led nature of brainstorming. (*Appreciative Inquiry*)"
     },
-    "category": ""
+    "category": "Powerful Questioning"
   },
   {
     "id": 45,
-    "question": "C",
+    "question": "A client consistently reschedules sessions and misses goals. What\u2019s the best coach response?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Remind them of your cancellation policy",
+      "B": "Explore what\u2019s happening and revisit their readiness",
+      "C": "Cancel the relationship due to lack of commitment",
+      "D": "Continue without addressing the issue"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "While boundaries matter, it\u2019s better to first explore the root issue. (NBHWC 2.2)",
+      "B": "Correct. Exploring ambivalence can reveal obstacles and support autonomy. (*Changing to Thrive*, NBHWC Coaching Process)",
+      "C": "Premature termination doesn\u2019t serve client-centered practice. (*MI*, p. 72)",
+      "D": "Avoiding the issue undermines the coaching relationship. (NBHWC Code of Ethics)"
     },
-    "category": ""
+    "category": "Coaching Process"
   },
   {
     "id": 46,
-    "question": "That i s a lot t o take in . W hat i s you r understan ding of this diagnosi s? \"You a re overwhelm ed with all of thi s new informat ion. Let 's tak e a mom ent to see what i s going well . \"",
+    "question": "What is the main focus of the Transtheoretical Model of Change?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Goal achievement through accountability",
+      "B": "Skill development and confidence",
+      "C": "Stages of readiness for change",
+      "D": "Client education on behavior risks"
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Accountability is part of coaching but not the TTM\u2019s core. (*Changing to Thrive*)",
+      "B": "Skill building matters, but TTM emphasizes readiness. (NBHWC 2.1)",
+      "C": "Correct. TTM centers around five stages of change from precontemplation to maintenance. (*Changing to Thrive*, p. 8)",
+      "D": "Risk awareness may spark contemplation, but it\u2019s not the model\u2019s focus. (NBHWC Behavior Change)"
     },
-    "category": ""
+    "category": "Behavior Change Models"
   },
   {
     "id": 47,
-    "question": "B",
+    "question": "Which best reflects the 'evoking' process in Motivational Interviewing?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Providing compelling facts about health risks",
+      "B": "Encouraging the client to explore their own reasons to change",
+      "C": "Correcting client assumptions gently",
+      "D": "Telling the client how they might benefit"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Providing facts can provoke resistance without internal motivation. (*MI*, p. 90)",
+      "B": "Correct. Evoking draws out the client\u2019s intrinsic motivations. (*MI*, p. 92; NBHWC Coaching Process)",
+      "C": "Correcting assumptions is directive and not evoking. (*Coaching Psychology Manual*)",
+      "D": "Telling focuses on the coach\u2019s ideas rather than the client\u2019s voice. (NBHWC 2.2)"
     },
-    "category": ""
+    "category": "Motivational Interviewing"
   },
   {
     "id": 48,
-    "question": "D",
+    "question": "When should a coach re-contract or re-visit the coaching agreement?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Only at the beginning of a program",
+      "B": "Any time the client\u2019s goals or needs change",
+      "C": "When the coach feels off-track",
+      "D": "Only if the client requests it"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Initial agreements set direction, but flexibility is needed. (NBHWC Ethics)",
+      "B": "Correct. Contracts should adapt as goals evolve to support alignment. (*Coaching Psychology Manual*, p. 29)",
+      "C": "Coach discomfort alone doesn\u2019t justify re-contracting without client input. (NBHWC Coaching Process)",
+      "D": "Proactive revisiting supports accountability and trust. (NBHWC 1.1)"
     },
-    "category": ""
+    "category": "Ethics & Agreements"
   },
   {
     "id": 49,
-    "question": "D",
+    "question": "Which of the following questions best supports behavior change planning?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Why haven\u2019t you made this change yet?",
+      "B": "What\u2019s one small step you feel ready to take?",
+      "C": "Don\u2019t you think this is important?",
+      "D": "What\u2019s stopping you from doing it now?"
     },
-    "correct": "",
+    "correct": "B",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Focuses on past failure, not future movement. (*MI*, p. 112)",
+      "B": "Correct. Promotes confidence, autonomy, and small wins. (NBHWC 2.4; *Changing to Thrive*)",
+      "C": "Leads with judgment and reduces collaboration. (NBHWC Ethics)",
+      "D": "Problem-focused questioning can feel confrontational. (*Coaching Psychology Manual*)"
     },
-    "category": ""
+    "category": "Behavior Change"
   },
   {
     "id": 50,
-    "question": "B",
+    "question": "A client in the contemplation stage says, \u201cI know I need to stop smoking, but I enjoy it.\u201d What is the best coach response?",
     "options": {
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "So, you\u2019re not ready to change yet.",
+      "B": "Quitting will be good for your health.",
+      "C": "What are some things you enjoy about smoking and some things you don\u2019t?",
+      "D": "Let\u2019s set a quit date now."
     },
-    "correct": "",
+    "correct": "C",
     "explanations": {
-      "correct": "",
-      "A": "",
-      "B": "",
-      "C": "",
-      "D": ""
+      "A": "Labels can close off conversation. (*MI*, p. 47)",
+      "B": "Telling reinforces external pressure, not exploration. (*Changing to Thrive*)",
+      "C": "Correct. This approach supports decisional balance and moves contemplation forward. (*MI*, *Changing to Thrive*, p. 82)",
+      "D": "Premature action planning can ignore readiness. (NBHWC Stages of Change)"
     },
-    "category": ""
+    "category": "Stages of Change"
   }
 ]
